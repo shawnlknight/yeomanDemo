@@ -1,0 +1,73 @@
+body {
+    background-color: #e6e6e6;
+}
+
+.header {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+    }
+}
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #b3b3b3;
+}
+
+.footer p {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.chs {
+	float: right;
+}
+
+.text-muted {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+//mixin 1
+@mixin font-family($font) {
+  -webkit-font-family: $font; 
+     -moz-font-family: $font;
+      -ms-font-family: $font;
+          font-family: $font;
+}
+
+.container { @include font-family('Noto Sans'); }
+
+
+//mixin 2
+@mixin font-family($font) {
+  -webkit-font-family: $font; 
+     -moz-font-family: $font;
+      -ms-font-family: $font;
+          font-family: $font;
+}
+
+.container { @include font-family('Noto Sans'); }
+
+
+//mixin 3
+@mixin font-family($font) {
+  -webkit-font-family: $font; 
+     -moz-font-family: $font;
+      -ms-font-family: $font;
+          font-family: $font;
+}
+
+.container { @include font-family('Noto Sans'); }
+
+
+
+
+
+
